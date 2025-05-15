@@ -16,8 +16,11 @@
 
 LOCAL_PATH := vendor/sony/extra
 
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+
 # Audio Enhancements
 ifeq ($(TARGET_SHIPS_SOUND_ENHANCEMENT),true)
+    $(warning TARGET_SHIPS_SOUND_ENHANCEMENT = $(TARGET_SHIPS_SOUND_ENHANCEMENT))
     $(call inherit-product, $(LOCAL_PATH)/audio/audio.mk)
 endif
 

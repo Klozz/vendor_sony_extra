@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/audio_menu_title">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="audio_top_intro"
+        android:title="@string/audio_menu_header"/>
+
+    <PreferenceCategory>
+
+        <Preference
+            android:key="audio_dolby"
+            android:icon="@drawable/ic_dolby"
+            android:title="@string/dolby_title"
+            android:summary="@string/dolby_summary"
+            android:persistent="false">
+            <intent
+                android:targetPackage="com.dolby.daxappui2"
+                android:targetClass="com.dolby.daxappui2.MainActivity" />
+        </Preference>
+
+        <!-- Preference
+            android:key="audio_dtsx"
+            android:icon="@drawable/ic_dtsx"
+            android:title="@string/dtsx_title"
+            android:summary="@string/dtsx_summary"
+            android:persistent="false">
+            <intent
+                android:targetPackage="com.asus.maxxaudio.audiowizard"
+                android:targetClass="com.asus.maxxaudio.audiowizard.MainActivity" />
+        </Preference -->
+
+        <!-- DSEE actually doesnt work at the moment. Hide it to stop misguiding users
+       <SwitchPreferenceCompat
+           android:title="@string/dsee_title"
+           android:key="audio_dsee"
+           android:summary="@string/dsee_summary"
+           android:iconSpaceReserved="false"/>
+        -->
+
+       <SwitchPreferenceCompat
+           android:title="@string/windnr_title"
+           android:key="audio_windnr"
+           android:summary="@string/windnr_summary"
+           android:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="audio_setting_footer"
+        android:title="@string/audio_menu_footer"
+        android:selectable="false" />
+
+</PreferenceScreen>

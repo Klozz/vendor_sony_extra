@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2023 XperiaLabs Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!-- App Name -->
+    <string name="app_name" translatable="true">Áudio Xperia</string>
+
+    <!-- Audio Settings -->
+    <string name="audio_menu_title">Definições de Áudio</string>
+    <string name="audio_menu_header">Qualidade de Áudio</string>
+    <string name="audio_setting_summary">Eleve a qualidade do seu som com o Dolby Sound EQ para uma experiência de reprodução de áudio notável e envolvente</string>
+
+    <string name="dsee_title">DSEE Ultimate</string>
+    <string name="dsee_summary">Melhore música comprimida com precisão usando IA</string>
+    <string name="windnr_title">Filtro de vento inteligente</string>
+    <string name="windnr_summary">Remove ruídos de vento no microfone durante gravações.\nUsando tecnologia de separação de áudio, remove ruído sem perda de qualidade (Apenas com microfone interno)</string>
+
+    <string name="dolby_title">Dolby Sound</string>
+    <string name="dolby_summary">Ajuste definições de som Dolby para uma experiência de áudio imersiva e multidimensional</string>
+
+    <string name="dtsx_title">DTS:X Ultra</string>
+    <string name="dtsx_summary">DTS:X Ultra melhora a qualidade do áudio com efeitos espaciais tridimensionais e um equalizador ajustável pelo usuário, permitindo um ambiente de entretenimento mais envolvente</string>
+
+    <string name="audio_menu_footer">Ao reproduzir conteúdo de áudio com melhorias de som, as informações do conteúdo terão precedência sobre as configurações nesta tela. O conteúdo de alta resolução também pode ser reproduzido corretamente quando os aprimoramentos de som estão desativados.</string>
+</resources>

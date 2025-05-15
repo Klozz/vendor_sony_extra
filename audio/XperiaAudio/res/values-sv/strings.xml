@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2023 XperiaLabs Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!-- App Name -->
+    <string name="app_name" translatable="true">Xperia Audio</string>
+
+    <!-- Audio Settings --> 
+    <string name="audio_menu_title">Ljudinställningar</string>
+    <string name="audio_setting_summary">Höj din ljudkvalitet med Dolby Sound EQ för en anmärkningsvärd och uppslukande ljuduppspelningsupplevelse</string>
+    <string name="audio_menu_header">Ljudkvalitet</string>
+
+    <string name="dsee_title">DSEE Ultimate</string>
+    <string name="dsee_summary">Förbättra komprimerad musik exakt med AI-teknik</string>
+    <string name="windnr_title">Intelligellt vindfilter</string>
+    <string name="windnr_summary">Tar bort vindbrus från mikrofonen vid inspelning.\nMed ljudsepareringsteknik kan du ta bort brus utan kvalitetsförlust (Endast vid inspelning med intern mikrofon)</string>
+
+    <string name="dolby_title">Dolby Sound</string>
+    <string name="dolby_summary">Justera Dolby Sound-inställningarna för att uppleva ett uppslukande, flerdimensionellt ljud som omsluter dig och väcker filmer, musik och spel till liv</string>
+
+    <string name="dtsx_title">DTS:X Ultra</string>
+    <string name="dtsx_summary">DTS:X Ultra förbättrar ljudkvaliteten med tredimensionella rumsliga effekter och en användarjusterbar equalizer, vilket möjliggör en mer engagerande underhållningsmiljö</string>
+
+    <string name="audio_menu_footer">När du spelar upp ljudinnehåll med ljudförbättringar kommer innehållets information att ha företräde framför inställningarna på den här skärmen. Högupplöst innehåll kan också spelas upp korrekt när ljudförbättringar är avstängda.</string>
+</resources>

@@ -34,5 +34,6 @@ PRODUCT_PACKAGES += \
     vendor.dolby.hardware.dms@2.0_system \
     DolbySound \
     daxService \
+    XperiaAudio \
     vendor.dolby.hardware.dms@2.0-service \
     vendor.dolby.media.c2@1.0-service

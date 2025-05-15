@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2023 XperiaLabs Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!-- App Name -->
+    <string name="app_name" translatable="true">Audio Xperia</string>
+
+    <!-- Audio Settings -->
+    <string name="audio_menu_title">Ajustes de Audio</string>
+    <string name="audio_menu_header">Calidad del Sonido</string>
+    <string name="audio_setting_summary">Eleve su calidad de sonido con Dolby Sound EQ para disfrutar de una experiencia de reproducción de audio extraordinaria e inmersiva</string>
+
+    <string name="dsee_title">DSEE Ultimate</string>
+    <string name="dsee_summary">Mejora música comprimida con precisión usando IA</string>
+    <string name="windnr_title">Filtro de viento inteligente</string>
+    <string name="windnr_summary">Elimina ruidos del viento en el micrófono al grabar.\nUsando tecnología de separación de sonido, elimina ruido sin pérdida de calidad (Solo con micrófono interno)</string>
+
+    <string name="dolby_title">Dolby Sound</string>
+    <string name="dolby_summary">Ajusta los ajustes de Dolby Sound para experimentar un sonido inmersivo y multidimensional que te envuelve y da vida a películas, música y juegos</string>
+
+    <string name="dtsx_title">DTS:X Ultra</string>
+    <string name="dtsx_summary">DTS:X Ultra mejora la calidad del audio con efectos espaciales tridimensionales y un ecualizador ajustable por el usuario, lo que permite un entorno de entretenimiento más atractivo</string>
+
+    <string name="audio_menu_footer">Mientras se reproduce contenido de audio con mejoras de sonido, la información del contenido tendrá prioridad sobre la configuración de esta pantalla. El contenido de alta resolución también se puede reproducir correctamente cuando las mejoras de sonido están desactivadas.</string>
+</resources>

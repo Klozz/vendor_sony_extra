@@ -14,6 +14,7 @@
 # limitations under the License.
 #
 EXTRA_PATH := vendor/sony/extra
+PRODUCT_SOONG_NAMESPACES += $(EXTRA_PATH)
 
 # Audio Enhancements
 ifeq ($(TARGET_SHIPS_SOUND_ENHANCEMENT),true)
